@@ -1,0 +1,13 @@
+- type: guideEntry
+  id: SS14
+  name: guide-entry-ss14
+  text: "/ServerInfo/Rules.txt"
+  children:
+  - Controls
+  - Jobs
+  - Survival
+  - Chemicals
+  - Antagonists
+  - Species
+  - Writing
+  - Glossary

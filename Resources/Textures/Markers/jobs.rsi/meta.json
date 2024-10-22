@@ -124,6 +124,12 @@
     {
       "name": "librarian"
     },
+	{
+	  "name": "mail_carrier"
+	},
+	{
+	  "name": "mailcarrier"
+	},
     {
       "name": "medicalintern"
     },
