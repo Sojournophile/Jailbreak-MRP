@@ -1,14 +1,13 @@
 - type: job
-  id: Chef
-  name: job-name-chef
-  description: job-description-chef
-  playTimeTracker: JobChef
+  id: InmateCook
+  name: job-name-inmate-cook
+  description: job-description-inmate-cook
+  playTimeTracker: JobInmateCook
   requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Civilian
-      min: 3600 #DeltaV 1 hours
-  startingGear: ChefGear
-  icon: "JobIconChef"
+    - !type:CharacterOverallTimeRequirement
+      min: 3600 #1 hour
+  startingGear: CookGear
+  icon: "JobIconPrisoner"
   supervisors: job-supervisors-hop
   access:
   - Service
@@ -23,17 +22,15 @@
     - type: ProfessionalChef #Nyano - End Summary.
 
 - type: startingGear
-  id: ChefGear
+  id: CookGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChef
-    head: ClothingHeadHatChef
+    jumpsuit: ClothingUniformJumpsuitPrisoner
     back: ClothingBackpackFilled
-    mask: ClothingMaskItalianMoustache
     shoes: ClothingShoesColorBlack
-    id: ChefPDA
+    id: PrisonerPDA
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterApronChef
-    belt: ClothingBeltChefFilled
-  innerClothingSkirt: ClothingUniformJumpskirtChef
+    belt: ClothingBeltChef
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

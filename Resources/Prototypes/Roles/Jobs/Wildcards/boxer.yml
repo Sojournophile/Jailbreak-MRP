@@ -28,7 +28,7 @@
   equipment:
     jumpsuit: UniformShortsRed
     back: ClothingBackpackFilled
-    id: BoxerPDA
+    id: PrisonerPDA
     ears: ClothingHeadsetService
     gloves: ClothingHandsGlovesBoxingRed
     shoes: ClothingShoesColorRed

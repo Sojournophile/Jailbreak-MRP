@@ -25,6 +25,7 @@
   equipment:
     jumpsuit: UniformScrubsColorBlue # DeltaV - Intern starts with blue scrubs
     back: ClothingBackpackMedicalFilled
+    head: ClothingHeadNurseHat
     shoes: ClothingShoesColorWhite
     id: MedicalInternPDA
     ears: ClothingHeadsetMedical

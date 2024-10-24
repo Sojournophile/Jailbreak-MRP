@@ -18,11 +18,11 @@
 - type: startingGear
   id: JanitorGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitJanitor
+    jumpsuit: ClothingUniformJumpsuitPrisoner
     back: ClothingBackpackFilled
     shoes: ClothingShoesGaloshes
     head: ClothingHeadHatPurplesoft
-    id: JanitorPDA
+    id: PrisonerPDA
     gloves: ClothingHandsGlovesJanitor
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
@@ -33,13 +33,13 @@
 - type: startingGear
   id: JanitorMaidGear
   equipment:
-    jumpsuit: ClothingUniformJumpskirtJanimaid
+    jumpsuit: ClothingUniformJumpskirtPrisoner
     back: ClothingBackpackFilled
-    id: JanitorPDA
+    id: PrisonerPDA
     gloves: ClothingHandsGlovesJanitor
     head: ClothingHeadHatCatEars
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
-  innerClothingSkirt: ClothingUniformJumpskirtJanimaid
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

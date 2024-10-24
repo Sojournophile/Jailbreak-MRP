@@ -117,6 +117,54 @@
       - state: medicalintern
 
 - type: entity
+  id: SpawnPointInmateNurse
+  parent: SpawnPointJobBase
+  name: inmate nurse
+  components:
+  - type: SpawnPoint
+    job_id: InmateNurse
+  - type: Sprite
+    layers:
+      - state: green
+      - state: prisoner
+
+- type: entity
+  id: SpawnPointTestSubject
+  parent: SpawnPointJobBase
+  name: test subject
+  components:
+  - type: SpawnPoint
+    job_id: TestSubject
+  - type: Sprite
+    layers:
+      - state: green
+      - state: prisoner
+      
+- type: entity
+  id: SpawnPointInmateCook
+  parent: SpawnPointJobBase
+  name: inmate cook
+  components:
+  - type: SpawnPoint
+    job_id: InmateCook
+  - type: Sprite
+    layers:
+      - state: green
+      - state: prisoner
+
+- type: entity
+  id: SpawnPointInmateTechnician
+  parent: SpawnPointJobBase
+  name: inmate technician
+  components:
+  - type: SpawnPoint
+    job_id: InmateTechnician
+  - type: Sprite
+    layers:
+      - state: green
+      - state: prisoner
+
+- type: entity
   id: SpawnPointSecurityCadet
   parent: SpawnPointJobBase
   name: security cadet

@@ -20,6 +20,7 @@
   - Boxer
   # - Chaplain # DeltaV - Move Chaplain into Epistemics
   - Chef
+  - InmateCook
   - Clown
   - HeadOfPersonnel
   - Janitor
@@ -61,6 +62,7 @@
   - SeniorEngineer
   - StationEngineer
   - TechnicalAssistant
+  - InmateTechnician
 
 - type: department
   id: Medical
@@ -74,6 +76,7 @@
   - Psychologist
   - Paramedic
   - SeniorPhysician
+  - InmateNurse # Jailbreak - prisoner medical intern
   - MedicalBorg  # Delta V - Medical Borg, see Resources/Prototypes/DeltaV/Roles/Jobs/Medical/medicalborg.yml
 
 - type: department
@@ -104,6 +107,7 @@
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
   - Librarian
   - Roboticist
+  - TestSubject # Jailbreak - prisoner research assistant
 
 - type: department
   id: Specific

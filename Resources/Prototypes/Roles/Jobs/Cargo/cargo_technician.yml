@@ -3,27 +3,22 @@
   name: job-name-cargotech
   description: job-description-cargotech
   playTimeTracker: JobCargoTechnician
-  antagAdvantage: 2 # DeltaV - Reduced TC: External Access
   startingGear: CargoTechGear
   icon: "JobIconCargoTechnician"
   supervisors: job-supervisors-qm
   access:
   - Cargo
   - Maintenance
-  extendedAccess:
-  - Salvage
-  - Orders # DeltaV - Orders, see Resources/Prototypes/DeltaV/Access/cargo.yml
-
 - type: startingGear
   id: CargoTechGear
   equipment:
     head: ClothingHeadHatCargosoft
-    jumpsuit: ClothingUniformJumpsuitCargo
+    jumpsuit: ClothingUniformJumpsuitPrisoner
     back: ClothingBackpackCargoFilled
     shoes: ClothingShoesColorBlack
-    id: CargoPDA
+    id: PrisonerPDA
     ears: ClothingHeadsetCargo
     pocket1: AppraisalTool
-  innerClothingSkirt: ClothingUniformJumpskirtCargo
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner
   satchel: ClothingBackpackSatchelCargoFilled
   duffelbag: ClothingBackpackDuffelCargoFilled

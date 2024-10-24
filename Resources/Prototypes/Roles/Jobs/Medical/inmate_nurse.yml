@@ -1,0 +1,33 @@
+﻿- type: job
+  id: InmateNurse
+  name: job-name-inmate-nurse
+  description: job-description-inmate-nurse
+  playTimeTracker: JobInmateNurse
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 3600 # 1 hour
+  startingGear: InmateNurseGear
+  icon: "JobIconPrisoner"
+  supervisors: job-supervisors-medicine
+  canBeAntag: true # DeltaV - Can be antagonist
+  access:
+  - Medical
+  - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
+
+- type: startingGear
+  id: InmateNurseGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitPrisoner
+    head: ClothingHeadNurseHat
+    back: ClothingBackpackMedicalFilled
+    shoes: ClothingShoesColorBlack
+    id: PrisonerPDA
+    ears: ClothingHeadsetMedical
+    pocket2: BookMedicalReferenceBook
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner
+  satchel: ClothingBackpackSatchelMedicalFilled
+  duffelbag: ClothingBackpackDuffelMedicalFilled

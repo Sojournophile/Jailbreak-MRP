@@ -1,0 +1,28 @@
+﻿- type: job
+  id: TestSubject
+  name: job-name-test-subject
+  description: job-description-test-subject
+  playTimeTracker: JobTestSubject
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 3600 # 1 hour
+  startingGear: TestSubjectGear
+  icon: "JobIconPrisoner"
+  supervisors: job-supervisors-science
+  canBeAntag: true # DeltaV - Can be antagonist
+  access:
+  - Research
+  - Maintenance
+
+- type: startingGear
+  id: TestSubjectGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitPrisoner
+    back: ClothingBackpackScienceFilled
+    shoes: ClothingShoesColorBlack
+    id: PrisonerPDA
+    ears: ClothingHeadsetScience
+    pocket2: BookScientistsGuidebook
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner
+  satchel: ClothingBackpackSatchelScienceFilled
+  duffelbag: ClothingBackpackDuffelScienceFilled

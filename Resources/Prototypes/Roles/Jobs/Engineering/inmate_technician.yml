@@ -1,0 +1,34 @@
+- type: job
+  id: InmateTechnician
+  name: job-name-inmate-technician
+  description: job-description-inmate-technician
+  playTimeTracker: JobInmateTechnician
+  antagAdvantage: 2 # DeltaV - Reduced TC: Engineering
+  requirements:
+  - !type:CharacterOverallTimeRequirement # DeltaV - to prevent griefers from taking the role.
+      min: 7200 # 2 hours
+    # - !type:DepartmentTimeRequirement # DeltaV - Removes time limit
+    #   department: Engineering
+    #   time: 54000 #15 hrs
+    #   inverted: true # stop playing intern if you're good at engineering!
+  startingGear: InmateTechnicianGear
+  icon: "JobIconPrisoner"
+  supervisors: job-supervisors-engineering
+  canBeAntag: true # DeltaV - Can be antagonist
+  access:
+  - Maintenance
+  - Engineering
+
+- type: startingGear
+  id: InmateTechnicianGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitPrisoner
+    back: ClothingBackpackEngineeringFilled
+    shoes: ClothingShoesBootsWork
+    id: PrisonerPDA
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+    pocket2: BookEngineersHandbook
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner
+  satchel: ClothingBackpackSatchelEngineeringFilled
+  duffelbag: ClothingBackpackDuffelEngineeringFilled

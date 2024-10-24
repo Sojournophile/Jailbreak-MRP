@@ -36,14 +36,14 @@
 - type: startingGear
   id: LibrarianGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitLibrarian
+    jumpsuit: ClothingUniformJumpsuitPrisoner
     back: ClothingBackpackLibrarianFilled
     shoes: ClothingShoesBootsLaceup
     outerClothing: ClothingOuterCoatRnd
-    id: LibrarianPDA
+    id: PrisonerPDA
     ears: ClothingHeadsetScience
     pocket1: d10Dice
     pocket2: HandLabeler
-  innerClothingSkirt: ClothingUniformJumpskirtLibrarian
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner
   satchel: ClothingBackpackSatchelLibrarianFilled
   duffelbag: ClothingBackpackDuffelLibrarianFilled

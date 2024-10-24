@@ -22,11 +22,11 @@
 - type: startingGear
   id: ServiceWorkerGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorDarkGreen # DeltaV
+    jumpsuit: ClothingUniformJumpsuitPrisoner # DeltaV
     back: ClothingBackpackFilled
     shoes: ClothingShoesColorBlack
-    id: ServiceWorkerPDA
+    id: PrisonerPDA
     ears: ClothingHeadsetService
-  innerClothingSkirt: ClothingUniformJumpskirtColorDarkGreen # DeltaV
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner # DeltaV
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

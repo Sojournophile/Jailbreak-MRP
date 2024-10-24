@@ -8,8 +8,8 @@
   supervisors: job-supervisors-hop
   access:
   - Service
-  - Maintenance
   - Hydroponics
+  - Maintenance
   extendedAccess:
   - Kitchen
   - Bar
@@ -17,10 +17,10 @@
 - type: startingGear
   id: BotanistGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHydroponics
+    jumpsuit: ClothingUniformJumpsuitPrisoner
     back: ClothingBackpackHydroponicsFilled
-    shoes: ClothingShoesColorBrown
-    id: BotanistPDA
+    shoes: ClothingShoesColorBlack
+    id: PrisonerPDA
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterApronBotanist
     belt: ClothingBeltPlantFilled

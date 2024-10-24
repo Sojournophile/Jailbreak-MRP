@@ -21,7 +21,7 @@
 - type: startingGear
   id: MusicianGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMusician
+    jumpsuit: ClothingUniformJumpsuitPrisoner
     back: ClothingBackpackMusicianFilled
     eyes: ClothingEyesGlassesSunglasses
     shoes: ClothingShoesBootsLaceup

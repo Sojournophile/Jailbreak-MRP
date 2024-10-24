@@ -37,11 +37,11 @@
 - type: startingGear
   id: ChaplainGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChaplain
+    jumpsuit: ClothingUniformJumpsuitPrisoner
     back: ClothingBackpackChaplainFilled
     shoes: ClothingShoesColorBlack
-    id: ChaplainPDA
+    id: PrisonerPDA
     ears: ClothingHeadsetScience
-  innerClothingSkirt: ClothingUniformJumpskirtChaplain
+  innerClothingSkirt: ClothingUniformJumpskirtPrisoner
   satchel: ClothingBackpackSatchelChaplainFilled
   duffelbag: ClothingBackpackDuffelChaplainFilled

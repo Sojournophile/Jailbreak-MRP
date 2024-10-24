@@ -48,6 +48,11 @@ job-name-ertjanitor = ERT Janitor
 job-name-boxer = Boxer
 job-name-zookeeper = Zookeeper
 job-name-visitor = Visitor
+# Prisoners
+job-name-inmate-nurse = Inmate Nurse
+job-name-test-subject = Test Subject
+job-name-inmate-technician = Inmate Technician
+job-name-inmate-cook = Inmate Cook
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Atmospheric Technician
@@ -74,6 +79,8 @@ JobERTMedical = ERT Medical
 JobERTSecurity = ERT Security
 JobHeadOfPersonnel = Head of Personnel
 JobHeadOfSecurity = Head of Security
+JobInmateNurse = Inmate Nurse
+JobInmateTechnician = Inmate Technician
 JobJanitor = Janitor
 JobLawyer = Lawyer
 JobLibrarian = Librarian
@@ -100,6 +107,7 @@ JobSeniorResearcher = Senior Researcher
 JobServiceWorker = Service Worker
 JobStationEngineer = Station Engineer
 JobTechnicalAssistant = Technical Assistant
+JobTestSubject = Test Subject
 JobVisitor = Visitor
 JobWarden = Warden
 JobZookeeper = Zookeeper
